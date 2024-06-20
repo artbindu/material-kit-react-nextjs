@@ -1,0 +1,21 @@
+{
+    "files.exclude": {
+        ".git": true,
+        ".DS_Store": true,
+        ".vscode": true,
+        "node_modules": true,
+        ".next": true
+    },
+    "editor.minimap.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.js": "$(capture)*.css, $(capture).scss, $(capture).test.js",
+        "*.tsx": "$(capture)*.css, $(capture).scss, $(capture).test.tsx",
+        "manifest.json": "*.ico, *.png, *.txt",
+        "README.md": "LICENSE, .gitignore, *.md",
+        "package.json": "package-lock.json, *.yaml",
+        "tsconfig.json": "prettier.config.mjs, .eslintrc.js, .editorconfig, next-env.d.ts, next.config.mjs",
+        ".gitignore": ".gitattributes"
+    }
+}
