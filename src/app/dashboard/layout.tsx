@@ -26,8 +26,7 @@ export default function Layout({ children }: LayoutProps): React.JSX.Element {
           },
         }}
       />
-      <Box
-        sx={{
+      <Box sx={{
           bgcolor: 'var(--mui-palette-background-default)',
           display: 'flex',
           flexDirection: 'column',

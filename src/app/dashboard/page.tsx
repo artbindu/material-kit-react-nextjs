@@ -13,7 +13,7 @@ import { Traffic } from '@/components/dashboard/overview/traffic';
 // import { TotalProfit } from '@/components/dashboard/overview/total-profit';
 
 export const metadata = { title: `Overview | Dashboard | ${config.site.name}` } satisfies Metadata;
-
+// OverView Component
 export default function Page(): React.JSX.Element {
   return (
     <Grid container spacing={3}>

@@ -14,7 +14,7 @@ import { Users as UsersIcon } from '@phosphor-icons/react/dist/ssr/Users';
 
 import { usePopover } from '@/hooks/use-popover';
 
-import { MobileNav } from './mobile-nav';
+// import { MobileNav } from './mobile-nav';
 import { UserPopover } from './user-popover';
 
 export function MainNav(): React.JSX.Element {
@@ -77,12 +77,12 @@ export function MainNav(): React.JSX.Element {
         </Stack>
       </Box>
       <UserPopover anchorEl={userPopover.anchorRef.current} onClose={userPopover.handleClose} open={userPopover.open} />
-      <MobileNav
+      {/* <MobileNav
         onClose={() => {
           setOpenNav(false);
         }}
         open={openNav}
-      />
+      /> */}
     </React.Fragment>
   );
 }
