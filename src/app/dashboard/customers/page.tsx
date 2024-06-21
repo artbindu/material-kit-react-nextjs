@@ -114,6 +114,7 @@ export default function Page(): React.JSX.Element {
   const rowsPerPage = 5;
 
   const paginatedCustomers = applyPagination(customers, page, rowsPerPage);
+  console.log('BM: paginatedCustomers: ', paginatedCustomers);
 
   return (
     <Stack spacing={3}>
